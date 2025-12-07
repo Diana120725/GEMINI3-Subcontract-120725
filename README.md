@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# MD SubContract Dashboard
 
-# Run and deploy your AI Studio app
+An interactive dashboard for the MD SubContract Online Application System.
 
-This contains everything you need to run your app locally.
+## How to Run Locally
 
-View your app in AI Studio: https://ai.studio/apps/drive/1oSXD7eQEXZ5pC2j-fNWc6N6GAlUIR1Kw
+1. Install Node.js.
+2. Open terminal in this folder.
+3. Run `npm install`.
+4. Run `npm run dev`.
 
-## Run Locally
+## How to Deploy to Netlify
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Push this code to a GitHub repository.
+2. Log in to Netlify and "New Site from Git".
+3. Select your repository.
+4. Netlify will auto-detect the build settings:
+   - Build Command: `npm run build`
+   - Publish Directory: `dist`
+5. Click Deploy.
